@@ -10,7 +10,7 @@ public enum FilePatches {
     COUNTRIES("C:\\Users\\raduy\\IdeaProjects\\db-generator\\src\\main\\resources\\countries"),
     CITIES("C:\\Users\\raduy\\IdeaProjects\\db-generator\\src\\main\\resources\\cities"),
     STREETS("C:\\Users\\raduy\\IdeaProjects\\db-generator\\src\\main\\resources\\streets"),
-    DESCRIPTIONS("C:\\Users\\raduy\\IdeaProjects\\db-generator\\src\\main\\resources\\descriptions");
+    DESCRIPTIONS("C:\\Users\\raduy\\IdeaProjects\\db-generator\\src\\main\\resources\\descriptionscleaned");
 
     private String filePath;
     private FilePatches(String filePath) {

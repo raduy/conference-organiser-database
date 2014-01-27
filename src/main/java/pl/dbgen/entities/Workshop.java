@@ -40,7 +40,7 @@ public class Workshop {
                 .append(startTime.format(DateTimeFormatter.ISO_DATE_TIME)).append("', '")
                 .append(endTime.format(DateTimeFormatter.ISO_DATE_TIME)).append("', ")
                 .append(pricePerPerson).append(", '")
-                .append(shortDescription).append("';");
+                .append(shortDescription).append("';\n");
 
         return builder.toString();
     }
@@ -79,12 +79,5 @@ public class Workshop {
 
     public void setFreeSeats(int freeSeats) {
         this.freeSeats = freeSeats;
-    }
-
-    public static void main(String[] args) {
-        PrimitiveDataGenerator generator = PrimitiveDataGenerator.getInstance();
-        Workshop workshop = new Workshop(1, 200, LocalDateTime.now(), LocalDateTime.now(), 123, generator.nextDescription());
-
-        System.out.println(workshop.buildWorkshopExecString());
     }
 }

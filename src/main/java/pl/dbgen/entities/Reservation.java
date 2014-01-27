@@ -37,7 +37,7 @@ public class Reservation {
 
         builder.append(conferenceDayId).append(", ")
                 .append(clientId).append(", ")
-                .append(countOfPeople).append(";");
+                .append(countOfPeople).append(";\n");
 
         builder.append(buildWorkshopReservationsExecString());
 

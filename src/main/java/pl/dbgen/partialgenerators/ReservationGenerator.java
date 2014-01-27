@@ -41,11 +41,10 @@ public class ReservationGenerator {
 
         int countOfPeople = Math.min((randomClient.isCompany() ? gen.nextInt(6) + 1 : 1), freeSeats);
 
-        //last arg is not important
+//        last arg is not important
         Reservation reservation =
                 new Reservation(conferenceDay.getId(), randomClient.getClientID(), 3, countOfPeople, LocalDate.now());
 
-//        int costOfReservation = countOfPeople * conferenceDay;
         conferenceDay.setFreeSeats(conferenceDay.getFreeSeats() - countOfPeople);
 
         createWorkshopReservations(conferenceDay, reservation);
@@ -76,9 +75,6 @@ public class ReservationGenerator {
         WorkshopReservation workshopReservation =
                 new WorkshopReservation(workshop.getId(), reservation.getId(), randomCountOfPeople);
 
-
-        System.out.println(reservation.getPayment().getAmountToPay() + " " +
-                workshop.getPricePerPerson() * randomCountOfPeople);
         reservation.getPayment().setAmountToPay(reservation.getPayment().getAmountToPay() +
                 workshop.getPricePerPerson() * randomCountOfPeople);
 

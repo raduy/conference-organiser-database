@@ -31,7 +31,7 @@ public class Conference {
 
         builder.append("'").append(startingDate).append("', ")
                 .append(countOfDays).append(", '")
-                .append(shortDescription).append("';");
+                .append(shortDescription).append("';\n");
 
         return builder.toString();
     }
@@ -59,12 +59,4 @@ public class Conference {
     public int getId() {
         return id;
     }
-
-    public static void main(String[] args) {
-        PrimitiveDataGenerator generator = PrimitiveDataGenerator.getInstance();
-        Conference conference = new Conference(LocalDate.now(), 4, generator.nextDescription());
-        System.out.println(conference.getId());
-        System.out.println(conference.buildConferenceExecString());
-    }
-
 }

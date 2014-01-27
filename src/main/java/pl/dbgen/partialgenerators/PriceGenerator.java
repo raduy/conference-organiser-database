@@ -23,12 +23,12 @@ public class PriceGenerator {
             int countOfPrices = gen.nextInt(3) + 1;
 
             int firstPrice = gen.nextInt(100);
-            int daysBeforeConferenceStart = gen.nextInt(30) + 21;
+            int daysBeforeConferenceStart = gen.nextInt(15) + 40;
             for (int i = 0; i < countOfPrices; i++) {
                 Price price = new Price(conferenceDay.getId(), firstPrice, daysBeforeConferenceStart);
 
-                firstPrice += gen.nextInt(100);
-                daysBeforeConferenceStart -= gen.nextInt(3) + 21 / countOfPrices;
+                firstPrice += gen.nextInt(100) + 10;
+                daysBeforeConferenceStart -= gen.nextInt(10) + 2;
                 prices.add(price);
             }
         }

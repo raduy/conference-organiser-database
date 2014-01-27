@@ -19,8 +19,4 @@ public class TimeSpace {
 
         return builder.toString();
     }
-
-    public static void main(String[] args) {
-        System.out.println(TimeSpace.changeDateInDBSystem(LocalDate.now()));
-    }
 }

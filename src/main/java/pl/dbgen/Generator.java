@@ -23,14 +23,14 @@ public class Generator {
         StringBuilder sqlQuery = new StringBuilder();
 
         //create clients
-        List<Client> clients = generateRandomClients(50, 100);
+        List<Client> clients = generateRandomClients(500, 1000);
         for (Client client : clients) {
-            sqlQuery.append(client.buildClientExecString()).append("\n");
+            sqlQuery.append(client.buildClientExecString());
         }
 
         //start creating conferences between this dates
-        LocalDate from = LocalDate.of(2011, 06, 19);
-        LocalDate to = LocalDate.of(2014, 06, 19);
+        LocalDate from = LocalDate.of(2011, 6, 19);
+        LocalDate to = LocalDate.of(2014, 6, 19);
 
         LocalDate falseSystemDate = from;
 
@@ -39,70 +39,99 @@ public class Generator {
         int countOfConferences = (to.getMonthValue() + (to.getYear() - from.getYear()) * 12 + (12 - from.getDayOfMonth())) * 2;
 
         for(int i = 0; i < countOfConferences; i++) {
-            //create conference
-            Conference conference = TransEntityGenerator.generateCompleteConference(falseSystemDate);
-
-            //build EXEC string to create conference
-            sqlQuery.append(conference.buildConferenceExecString()).append('\n');
-            for (ConferenceDay conferenceDay : conference.getConferenceDays()) {
-                sqlQuery.append(conferenceDay.buildNewConferenceDayExecString()).append('\n');
-                for (Workshop workshop : conferenceDay.getWorkshops()) {
-                    sqlQuery.append(workshop.buildWorkshopExecString()).append('\n');
-                }
-            }
-            //create prices
-            List<Price> prices = PriceGenerator.generateCompletePricesForConference(conference);
-
-            //build EXEC string to create prices
-            for (Price price : prices) {
-                sqlQuery.append(SQLProcedureName.ADD_PRICE);
-
-                sqlQuery.append(price.getConferenceDayId()).append(", ")
-                        .append(price.getPrice()).append(", ")
-                        .append(price.getDaysBeforeConferenceStart()).append(";\n");
-            }
-
-            //create reservations for conference
-            List<Reservation> reservations = ReservationGenerator.generateCompleteReservationsForConference(conference, clients);
-            //build EXEC string to create reservations
-            sqlQuery.append(TimeSpace.changeDateInDBSystem(conference.getStartingDate().minusDays(35)));
-            for (Reservation reservation : reservations) {
-                sqlQuery.append(reservation.buildNewReservationExecString()).append('\n');
-
-                int skipDays = gen.nextInt(30);
-                sqlQuery.append(TimeSpace.changeDateInDBSystem(conference.getStartingDate().minusDays(skipDays))).append('\n');
-            }
-
-            //fill reservations with personalities - create participants
-            List<WorkshopParticipant> workshopParticipants = new ArrayList<>();
-            List<Participant> participants = ParticipantGenerator.generateParticipantsForReservations(reservations, workshopParticipants);
-            //build EXEC string to create personalities
-            for (Participant participant : participants) {
-                sqlQuery.append(participant.buildNewParticipantExecString());
-            }
-            //and sign people to concrete workshops
-            for (WorkshopParticipant workshopParticipant : workshopParticipants) {
-                sqlQuery.append(workshopParticipant.buildNewWorkshopParticipantExecString());
-            }
-
-            //generate incomes from clients
-            List<ClientIncome> clientIncomes = IncomeGenerator.generateClientsIncomes(reservations);
-            //and build EXEC string
-            for (ClientIncome clientIncome : clientIncomes) {
-                sqlQuery.append(clientIncome.buildLogPaymentFromClientExecString());
-            }
+            sqlQuery.append('\n');
+            Conference conference = insertConference(sqlQuery, falseSystemDate);
+            insertPrices(sqlQuery, conference);
+            List<Reservation> reservations = insertReservations(sqlQuery, clients, conference);
+            insertParticipantsPersonalities(sqlQuery, reservations);
+            insertIncomesFromClients(sqlQuery, reservations);
 
             falseSystemDate = falseSystemDate.plusWeeks(2);
+            sqlQuery.append(TimeSpace.changeDateInDBSystem(falseSystemDate)).append('\n');
         }
 
+        sqlQuery.append(SQLProcedureName.TURN_OFF_FALSE_DB_SYSTEM_TIME).append('\n');
         File output = new File("C:\\Users\\raduy\\IdeaProjects\\db-generator\\src\\main\\resources\\output");
         try(BufferedWriter writer = new BufferedWriter(new FileWriter(output))){
             writer.write(sqlQuery.toString());
 
         } catch (IOException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            System.out.println("Oops! Exception occurred !");
         }
-//        System.out.println(sqlQuery);
+    }
+
+    private static void insertIncomesFromClients(StringBuilder sqlQuery, List<Reservation> reservations) {
+        //generate incomes from clients
+        List<ClientIncome> clientIncomes = IncomeGenerator.generateClientsIncomes(reservations);
+        //and build EXEC string
+        for (ClientIncome clientIncome : clientIncomes) {
+            sqlQuery.append(clientIncome.buildLogPaymentFromClientExecString()).append('\n');
+        }
+    }
+
+    private static void insertParticipantsPersonalities(StringBuilder sqlQuery, List<Reservation> reservations) {
+        //fill reservations with personalities - create participants
+        List<WorkshopParticipant> workshopParticipants = new ArrayList<>();
+        List<Participant> participants = ParticipantGenerator.generateParticipantsForReservations(reservations, workshopParticipants);
+        //build EXEC string to create personalities
+        for (Participant participant : participants) {
+            sqlQuery.append(participant.buildNewParticipantExecString());
+        }
+        //and sign people to concrete workshops
+        for (WorkshopParticipant workshopParticipant : workshopParticipants) {
+            sqlQuery.append(workshopParticipant.buildNewWorkshopParticipantExecString());
+        }
+    }
+
+    private static List<Reservation> insertReservations(StringBuilder sqlQuery, List<Client> clients, Conference conference) {
+        //create reservations for conference
+        List<Reservation> reservations = ReservationGenerator.generateCompleteReservationsForConference(conference, clients);
+        //build EXEC string to create reservations
+        final int daysBeforeConference = 40;
+
+        sqlQuery.append(TimeSpace.changeDateInDBSystem(conference.getStartingDate().minusDays(daysBeforeConference)))
+                .append('\n');
+        int skippedDays = daysBeforeConference;
+
+        for (Reservation reservation : reservations) {
+            if (skippedDays == 7) {
+                sqlQuery.append(TimeSpace.changeDateInDBSystem(conference.getStartingDate().minusDays(daysBeforeConference)))
+                        .append('\n');
+                skippedDays = daysBeforeConference;
+            }
+
+            sqlQuery.append(reservation.buildNewReservationExecString());
+
+            int daysToSkip = gen.nextInt(3);
+            skippedDays -= daysToSkip;
+            sqlQuery.append(TimeSpace.changeDateInDBSystem(conference.getStartingDate().minusDays(skippedDays))).append('\n');
+        }
+        return reservations;
+    }
+
+    private static void insertPrices(StringBuilder sqlQuery, Conference conference) {
+        //create prices
+        List<Price> prices = PriceGenerator.generateCompletePricesForConference(conference);
+
+        //build EXEC string to create prices
+        for (Price price : prices) {
+            sqlQuery.append(price.buildNewPriceExecString());
+        }
+    }
+
+    private static Conference insertConference(StringBuilder sqlQuery, LocalDate falseSystemDate) {
+        //create conference
+        Conference conference = ConferenceGenerator.generateCompleteConference(falseSystemDate);
+
+        //build EXEC string to create conference
+        sqlQuery.append(conference.buildConferenceExecString());
+        for (ConferenceDay conferenceDay : conference.getConferenceDays()) {
+            sqlQuery.append(conferenceDay.buildNewConferenceDayExecString());
+            for (Workshop workshop : conferenceDay.getWorkshops()) {
+                sqlQuery.append(workshop.buildWorkshopExecString());
+            }
+        }
+        return conference;
     }
 
     private static List<Client> generateRandomClients(int min, int max) {
@@ -111,7 +140,7 @@ public class Generator {
         int count = gen.nextInt(max - min) + min;
         for (int i = 0; i < count; i++) {
 
-            boolean isCompany = gen.nextBoolean() || gen.nextBoolean(); //75% that is company
+            boolean isCompany = gen.nextBoolean() || gen.nextBoolean(); //75% probability that is company
 
             Client client;
 

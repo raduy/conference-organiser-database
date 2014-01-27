@@ -36,7 +36,7 @@ public class Client {
                 .append(phone).append("', '")
                 .append(country).append("', '")
                 .append(street).append("', '")
-                .append(city).append("';");
+                .append(city).append("';\n");
 
         return builder.toString();
     }
@@ -71,17 +71,5 @@ public class Client {
 
     public String getCity() {
         return city;
-    }
-
-    public static void main(String[] args) {
-        PrimitiveDataGenerator generator = PrimitiveDataGenerator.getInstance();
-
-        Client client = new Client(generator.nextSinglePersonName(),
-                false,
-                generator.nextPhone(),
-                generator.nextCountry(),
-                generator.nextStreet(), generator.nextCity());
-
-        System.out.println(client.buildClientExecString());
     }
 }

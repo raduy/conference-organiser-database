@@ -26,7 +26,7 @@ public class ParticipantGenerator {
 
         int countOfParticipants = reservation.getCountOfPeople();
 
-        //randomization
+//        randomization
         if (gen.nextBoolean() && gen.nextBoolean()) {
             countOfParticipants += gen.nextInt(3) - 3;
         }
@@ -41,14 +41,14 @@ public class ParticipantGenerator {
         List<WorkshopReservation> workshopReservations = reservation.getWorkshopReservations();
 
         if (participants.size() > 0) {
-            signParticipantToWorkshop(participants, workshopReservations, workshopParticipants);
+            signParticipantsToWorkshops(participants, workshopReservations, workshopParticipants);
         }
 
         return participants;
     }
 
-    private static void signParticipantToWorkshop(List<Participant> participants, List<WorkshopReservation> workshopReservations,
-                                                  List<WorkshopParticipant> workshopParticipants) {
+    private static void signParticipantsToWorkshops(List<Participant> participants, List<WorkshopReservation> workshopReservations,
+                                                    List<WorkshopParticipant> workshopParticipants) {
         for (WorkshopReservation workshopReservation : workshopReservations) {
             int countOfPeople = workshopReservation.getCountOfPeople();
 

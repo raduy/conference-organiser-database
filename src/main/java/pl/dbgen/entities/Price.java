@@ -1,5 +1,7 @@
 package pl.dbgen.entities;
 
+import pl.dbgen.namesandpathes.SQLProcedureName;
+
 /**
  * @author Lukasz Raduj
  */
@@ -14,6 +16,18 @@ public class Price {
         this.conferenceDayId = conferenceDayId;
         this.price = price;
         this.daysBeforeConferenceStart = daysBeforeConferenceStart;
+    }
+
+    public String buildNewPriceExecString() {
+        StringBuilder builder = new StringBuilder();
+        builder.append(SQLProcedureName.ADD_PRICE);
+
+        builder.append(getConferenceDayId()).append(", ")
+                .append(getPrice()).append(", ")
+                .append(getDaysBeforeConferenceStart()).append(";\n");
+
+
+        return builder.toString();
     }
 
     public int getId() {

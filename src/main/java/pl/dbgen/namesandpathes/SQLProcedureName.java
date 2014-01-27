@@ -14,7 +14,8 @@ public enum SQLProcedureName {
     ADD_WORKSHOP_RESERVATION("exec add_workshop_reservation "),
     ADD_WORKSHOP_PARTICIPANT("exec add_workshop_participant "),
     FILL_RESERVATION_WITH_PERSONALITIES("exec fill_reservation_with_personalities "),
-    LOG_INCOME_FROM_CLIENT("exec log_income_from_client ");
+    LOG_INCOME_FROM_CLIENT("exec log_income_from_client "),
+    TURN_OFF_FALSE_DB_SYSTEM_TIME("exec turn_off_false_system_time ");
 
 
     private String procedureCall;

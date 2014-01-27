@@ -25,7 +25,6 @@ public class ConferenceDay {
         this.whichDay = whichDay;
         this.shortDescription = shortDescription;
         this.freeSeats = seats;
-        System.out.println("conference " + conferenceId + " " + seats);
     }
 
     public String buildNewConferenceDayExecString() {
@@ -36,7 +35,7 @@ public class ConferenceDay {
         builder.append(conferenceId).append(", ")
                 .append(seats).append(", ")
                 .append(whichDay).append(", '")
-                .append(shortDescription).append("';");
+                .append(shortDescription).append("';\n");
 
         return builder.toString();
     }
@@ -75,12 +74,5 @@ public class ConferenceDay {
 
     public void setFreeSeats(int freeSeats) {
         this.freeSeats = freeSeats;
-    }
-
-    public static void main(String[] args) {
-        PrimitiveDataGenerator generator = PrimitiveDataGenerator.getInstance();
-        ConferenceDay conferenceDay = new ConferenceDay(1, 342, 1, generator.nextDescription());
-
-        System.out.println(conferenceDay.buildNewConferenceDayExecString());
     }
 }

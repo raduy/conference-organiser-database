@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="297c1e86-536d-4709-bafb-73193ab38846" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\.idea\dictionaries\raduy.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\.idea\workspace.xml" afterPath="" />
       <change type="MOVED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\src\main\java\pl\dbgen\partialgenerators\TransEntityGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ConferenceGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Client.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Client.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Conference.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Conference.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/ConferenceDay.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/ConferenceDay.java" />
@@ -16,9 +26,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Reservation.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Reservation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ReservationGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ReservationGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/namesandpathes/SQLProcedureName.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/namesandpathes/SQLProcedureName.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/TimeSpace.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/TimeSpace.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Workshop.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Workshop.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/output" afterPath="$PROJECT_DIR$/src/main/resources/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
     </list>
     <ignored path="db-generator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +43,7 @@
     <file path="/ConferenceDay.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390236721373" ignored="false" />
     <file path="/Generator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390810996102" ignored="false" />
     <file path="/fragment.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390241935674" ignored="false" />
-    <file path="/Dummy.txt" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390810440317" ignored="false" />
+    <file path="/Dummy.txt" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390812286244" ignored="false" />
     <file path="/TransEntityGenerator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390156729865" ignored="false" />
     <file path="/TimeSpace.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390213475681" ignored="false" />
     <file path="/PriceGenerator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390217047291" ignored="false" />
@@ -48,6 +59,8 @@
     <file path="/IncomeGenerator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390264250813" ignored="false" />
     <file path="/FileCleaner.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390474816173" ignored="false" />
     <file path="/ConferenceGenerator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390476090440" ignored="false" />
+    <file path="/readme.txt" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390812554152" ignored="false" />
+    <file path="/a.dummy" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390813091332" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,46 +121,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Generator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/Generator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="32" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Reservation.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Reservation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
+            <state line="21" column="42" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Workshop.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Workshop.java">
+      <file leaf-file-name="SQLProcedureName.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/namesandpathes/SQLProcedureName.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="0" selection-start="2242" selection-end="2242" vertical-scroll-proportion="0.0">
+            <state line="14" column="28" selection-start="499" selection-end="499" vertical-scroll-proportion="0.22849463">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Price.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Price.java">
+      <file leaf-file-name="ConferenceGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ConferenceGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Payment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Payment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Participant.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Participant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+            <state line="16" column="13" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -156,25 +160,31 @@
       <file leaf-file-name="ConferenceDay.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/ConferenceDay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="0" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.0">
+            <state line="27" column="0" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conference.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Conference.java">
+      <file leaf-file-name="output" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/output">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="0" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Client.java">
+      <file leaf-file-name="outputcleaned" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/outputcleaned">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="35" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.0">
+            <state line="122901" column="42" selection-start="3098948" selection-end="3098948" vertical-scroll-proportion="-8.6">
               <folding />
             </state>
           </provider>
@@ -183,16 +193,25 @@
       <file leaf-file-name="FileCleaner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/FileCleaner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="45" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
+            <state line="22" column="34" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="TimeSpace.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/TimeSpace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="12" selection-start="36" selection-end="36" vertical-scroll-proportion="0.14592275">
+            <state line="21" column="0" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="10" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -216,8 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Reservation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Price.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/TransEntityGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/FileCleaner.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ConferenceGenerator.java" />
@@ -228,10 +245,12 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/PrimitiveDataGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ReservationGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Workshop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/ConferenceDay.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Conference.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Client.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/TimeSpace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/ConferenceDay.java" />
       </list>
     </option>
   </component>
@@ -487,7 +506,7 @@
       <recent name="pl.dbgen.entities" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Generator">
+  <component name="RunManager" selected="Application.FileCleaner">
     <configuration default="false" name="ConferenceDay" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -704,8 +723,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Generator" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FileCleaner" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FileCleaner" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Generator" />
         <item index="2" class="java.lang.String" itemvalue="Application.PrimitiveDataGenerator" />
         <item index="3" class="java.lang.String" itemvalue="Application.TimeSpace" />
         <item index="4" class="java.lang.String" itemvalue="Application.ConferenceDay" />
@@ -744,16 +763,21 @@
       <created>1390350528738</created>
       <updated>1390350528738</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Gitignore file added.">
+      <created>1390812290480</created>
+      <updated>1390812290480</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26837608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.391453" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -769,12 +793,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2530303" sideWeight="0.8769231" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12307692" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2530303" sideWeight="0.71623933" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2837607" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.391453" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -820,7 +843,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean input file from apostrophes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Gitignore file added." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -836,6 +859,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Clean file from ampostrophes." />
     <MESSAGE value="Clean input file from apostrophes." />
+    <MESSAGE value="Gitignore file added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -849,62 +873,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ParticipantGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="16" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/IncomeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ConferenceGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="28" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ReservationGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="24" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/WorkshopParticipant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/WorkshopReservation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Workshop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="2242" selection-end="2242" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Reservation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Price.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
@@ -926,13 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/ConferenceDay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Conference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="0" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0">
@@ -947,16 +908,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/FileCleaner.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="45" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
+        <state line="4" column="12" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="12" selection-start="36" selection-end="36" vertical-scroll-proportion="0.14592275">
+        <state line="1" column="10" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/FileCleaner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="34" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/TimeSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="32" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ConferenceGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/ConferenceDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/output">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/outputcleaned">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122901" column="42" selection-start="3098948" selection-end="3098948" vertical-scroll-proportion="-8.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Reservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="42" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/namesandpathes/SQLProcedureName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="28" selection-start="499" selection-end="499" vertical-scroll-proportion="0.22849463">
           <folding />
         </state>
       </provider>

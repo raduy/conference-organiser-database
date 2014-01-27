@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * @author Lukasz Raduj
  */
-public class TransEntityGenerator {
+public class ConferenceGenerator {
     private final static PrimitiveDataGenerator gen = PrimitiveDataGenerator.getInstance();
 
     public static Conference generateCompleteConference(LocalDate falseSystemDate) {
@@ -54,7 +54,7 @@ public class TransEntityGenerator {
     private static Conference generateConference(LocalDate falseSystemDate) {
         int countOfDays = gen.nextInt(5) + 1;
 
-        return new Conference(falseSystemDate.plusWeeks(3), countOfDays, gen.nextDescription());
+        return new Conference(falseSystemDate.plusWeeks(4), countOfDays, gen.nextDescription());
     }
 
     private static List<ConferenceDay> generateConferenceDaysForConference(Conference conference) {

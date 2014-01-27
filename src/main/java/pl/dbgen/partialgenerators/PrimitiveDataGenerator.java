@@ -174,17 +174,4 @@ public class PrimitiveDataGenerator {
         }
         return nextInt(1000000) + 100000;
     }
-
-    public static void main(String[] args) {
-        PrimitiveDataGenerator generator = PrimitiveDataGenerator.getInstance();
-
-        System.out.println(generator.nextCompanyName());
-        System.out.println(generator.nextSinglePersonName());
-        System.out.println(generator.nextCountry());
-        System.out.println(generator.nextCity());
-        System.out.println(generator.nextStreet());
-        System.out.println(generator.nextPhone());
-        System.out.println(generator.nextDescription());
-        System.out.println(generator.nextStudentIdentyficatorOrNull());
-    }
 }

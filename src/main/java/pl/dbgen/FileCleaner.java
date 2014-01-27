@@ -10,7 +10,7 @@ import java.io.*;
 public class FileCleaner {
 
     public static void deleteApostrophes(String path) {
-        File cleanedFile = new File(path + "cleaned");
+        File cleanedFile = new File(path + "withgo");
         File input = new File(path);
 
         StringBuilder source = new StringBuilder();
@@ -24,7 +24,7 @@ public class FileCleaner {
             System.out.println("File not found");
         }
 
-        String cleanedSource = source.toString().replaceAll("'", "");
+        String cleanedSource = source.toString().replaceAll(";\n", ";\ngo\n");
 
 
         try(BufferedWriter writer = new BufferedWriter(new FileWriter(path + "cleaned"))) {
@@ -35,6 +35,6 @@ public class FileCleaner {
     }
 
     public static void main(String[] args) {
-        FileCleaner.deleteApostrophes("C:\\Users\\raduy\\IdeaProjects\\db-generator\\src\\main\\resources\\descriptions");
+        FileCleaner.deleteApostrophes("C:\\Users\\raduy\\IdeaProjects\\db-generator\\src\\main\\resources\\output");
     }
 }

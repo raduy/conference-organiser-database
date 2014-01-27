@@ -2,42 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="297c1e86-536d-4709-bafb-73193ab38846" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/FileCleaner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/descriptionscleaned" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/namesandpathes/FilePatches.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/namesandpathes/FilePatches.java" />
+      <change type="MOVED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\src\main\java\pl\dbgen\partialgenerators\TransEntityGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ConferenceGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Client.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Conference.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Conference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/ConferenceDay.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/ConferenceDay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/FileCleaner.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/FileCleaner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/Generator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/Generator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ParticipantGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ParticipantGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Price.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Price.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/PriceGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/PriceGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/PrimitiveDataGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/PrimitiveDataGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Reservation.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Reservation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ReservationGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ReservationGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/namesandpathes/SQLProcedureName.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/namesandpathes/SQLProcedureName.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Workshop.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Workshop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/output" afterPath="$PROJECT_DIR$/src/main/resources/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="db-generator.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Client.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390147561385" ignored="false" />
-    <file path="/SQLProcedureName.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390237799554" ignored="false" />
+    <file path="/SQLProcedureName.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390463536046" ignored="false" />
     <file path="/PrimitiveDataGenerator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390226544252" ignored="false" />
     <file path="/FilePatches.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390137421859" ignored="false" />
     <file path="/Conference.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390224901926" ignored="false" />
     <file path="/Workshop.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390234760468" ignored="false" />
     <file path="/AbstractEntity.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390147262276" ignored="false" />
     <file path="/ConferenceDay.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390236721373" ignored="false" />
-    <file path="/Generator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390316827306" ignored="false" />
+    <file path="/Generator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390810996102" ignored="false" />
     <file path="/fragment.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390241935674" ignored="false" />
-    <file path="/Dummy.txt" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390350406190" ignored="false" />
+    <file path="/Dummy.txt" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390810440317" ignored="false" />
     <file path="/TransEntityGenerator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390156729865" ignored="false" />
     <file path="/TimeSpace.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390213475681" ignored="false" />
     <file path="/PriceGenerator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390217047291" ignored="false" />
-    <file path="/Price.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390215702214" ignored="false" />
+    <file path="/Price.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390464427275" ignored="false" />
     <file path="/Reservation.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390242828297" ignored="false" />
-    <file path="/ReservationGenerator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390243022387" ignored="false" />
+    <file path="/ReservationGenerator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390479157048" ignored="false" />
     <file path="/WorkshopReservation.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390222513971" ignored="false" />
     <file path="/Participant.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390225838153" ignored="false" />
-    <file path="/ParticipantGenerator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390240452084" ignored="false" />
+    <file path="/ParticipantGenerator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390474363157" ignored="false" />
     <file path="/WorkshopParticipant.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390238162398" ignored="false" />
     <file path="/Payment.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390241695519" ignored="false" />
     <file path="/ClientIncome.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390241872577" ignored="false" />
     <file path="/IncomeGenerator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390264250813" ignored="false" />
-    <file path="/FileCleaner.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390315674983" ignored="false" />
+    <file path="/FileCleaner.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390474816173" ignored="false" />
+    <file path="/ConferenceGenerator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390476090440" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,44 +108,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PrimitiveDataGenerator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/PrimitiveDataGenerator.java">
+      <file leaf-file-name="Reservation.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Reservation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="11" selection-start="1956" selection-end="2299" vertical-scroll-proportion="0.0">
+            <state line="11" column="13" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParticipantGenerator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ParticipantGenerator.java">
+      <file leaf-file-name="Workshop.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Workshop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="26" selection-start="2305" selection-end="2305" vertical-scroll-proportion="0.0">
+            <state line="82" column="0" selection-start="2242" selection-end="2242" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Generator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/Generator.java">
+      <file leaf-file-name="Price.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Price.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="23" selection-start="4254" selection-end="4254" vertical-scroll-proportion="0.0">
+            <state line="11" column="13" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="output" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/output">
-          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
+      <file leaf-file-name="Payment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Payment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Participant.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Participant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConferenceDay.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/ConferenceDay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="0" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Conference.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Conference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="0" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="35" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FileCleaner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/FileCleaner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="26" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0">
+            <state line="25" column="45" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,25 +192,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="12" selection-start="18" selection-end="18" vertical-scroll-proportion="0.062962964">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FilePatches.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/namesandpathes/FilePatches.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="50" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SQLProcedureName.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/namesandpathes/SQLProcedureName.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="56" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0">
+            <state line="4" column="12" selection-start="36" selection-end="36" vertical-scroll-proportion="0.14592275">
               <folding />
             </state>
           </provider>
@@ -186,21 +216,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Participant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Reservation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Price.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/TransEntityGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/FileCleaner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ConferenceGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/PriceGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/outputcleaned" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/Generator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ParticipantGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/PrimitiveDataGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ReservationGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Workshop.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/ConferenceDay.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/namesandpathes/SQLProcedureName.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/WorkshopParticipant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ParticipantGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Payment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/helpers/ClientIncome.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Reservation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ReservationGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/IncomeGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/FileCleaner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/namesandpathes/FilePatches.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/Generator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Conference.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Client.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -237,7 +267,20 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db-generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db-generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -256,25 +299,165 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="db-generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="db-generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db-generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db-generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db-generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db-generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dbgen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db-generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db-generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dbgen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partialgenerators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db-generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db-generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dbgen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="namesandpathes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db-generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db-generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dbgen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Console.TableResult.DefaultCopyAction" value="Custom-separated Values" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -283,15 +466,16 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -434,6 +618,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -460,19 +657,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -556,6 +740,11 @@
       <created>1390131000899</created>
       <updated>1390131000899</updated>
     </task>
+    <task id="LOCAL-00001" summary="Clean input file from apostrophes.">
+      <created>1390350528738</created>
+      <updated>1390350528738</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -573,19 +762,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34529915" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2530303" sideWeight="0.8518519" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14814815" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2530303" sideWeight="0.8769231" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12307692" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.391453" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34529915" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -631,7 +820,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean input file from apostrophes." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -645,6 +834,8 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Clean file from ampostrophes." />
+    <MESSAGE value="Clean input file from apostrophes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -658,109 +849,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Reservation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ParticipantGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="19" selection-start="2453" selection-end="2453" vertical-scroll-proportion="0.0">
+        <state line="29" column="16" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/IncomeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ConferenceGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="28" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ReservationGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="24" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/WorkshopParticipant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/WorkshopReservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Workshop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="31" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/helpers/ClientIncome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/IncomeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="40" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ReservationGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="42" selection-start="2358" selection-end="2358" vertical-scroll-proportion="0.0">
+        <state line="82" column="0" selection-start="2242" selection-end="2242" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/PrimitiveDataGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Reservation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="11" selection-start="1956" selection-end="2299" vertical-scroll-proportion="0.0">
+        <state line="11" column="13" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/company_names">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Price.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="31" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/descriptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/descriptionscleaned">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="16" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/namesandpathes/SQLProcedureName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="56" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0">
+        <state line="11" column="13" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/Generator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Payment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="23" selection-start="4254" selection-end="4254" vertical-scroll-proportion="0.0">
+        <state line="5" column="13" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/output">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="14355" column="21" selection-start="0" selection-end="2674342" vertical-scroll-proportion="-4.64">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Participant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ParticipantGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/ConferenceDay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="26" selection-start="2305" selection-end="2305" vertical-scroll-proportion="0.0">
+        <state line="78" column="0" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/namesandpathes/FilePatches.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Conference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="50" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
+        <state line="61" column="0" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="35" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/FileCleaner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="26" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0">
+        <state line="25" column="45" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="18" selection-end="18" vertical-scroll-proportion="0.062962964">
+        <state line="4" column="12" selection-start="36" selection-end="36" vertical-scroll-proportion="0.14592275">
           <folding />
         </state>
       </provider>

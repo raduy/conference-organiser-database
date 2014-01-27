@@ -13,23 +13,35 @@
       <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\.idea\uiDesigner.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\.idea\vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\.idea\workspace.xml" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\src\main\java\pl\dbgen\partialgenerators\TransEntityGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ConferenceGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Client.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Conference.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Conference.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/ConferenceDay.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/ConferenceDay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/FileCleaner.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/FileCleaner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/Generator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/Generator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ParticipantGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ParticipantGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Price.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Price.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/PriceGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/PriceGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/PrimitiveDataGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/PrimitiveDataGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Reservation.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Reservation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ReservationGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/partialgenerators/ReservationGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/namesandpathes/SQLProcedureName.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/namesandpathes/SQLProcedureName.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/TimeSpace.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/TimeSpace.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Workshop.java" afterPath="$PROJECT_DIR$/src/main/java/pl/dbgen/entities/Workshop.java" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\cities" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\company_names" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\countries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\descriptions" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\first_names" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\last_names" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\Generator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\TimeSpace.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\entities\Client.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\entities\Conference.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\entities\ConferenceDay.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\entities\Participant.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\entities\Payment.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\entities\Price.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\entities\Reservation.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\entities\Workshop.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\entities\WorkshopParticipant.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\entities\WorkshopReservation.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\helpers\ClientIncome.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\namesandpathes\FilePatches.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\namesandpathes\SQLProcedureName.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\partialgenerators\IncomeGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\partialgenerators\ParticipantGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\partialgenerators\PriceGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\partialgenerators\PrimitiveDataGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\partialgenerators\ReservationGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\pl\dbgen\partialgenerators\TransEntityGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\raduy\IdeaProjects\db-generator\target\classes\streets" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/output" afterPath="$PROJECT_DIR$/src/main/resources/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
     </list>
     <ignored path="db-generator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +55,7 @@
     <file path="/ConferenceDay.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390236721373" ignored="false" />
     <file path="/Generator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390810996102" ignored="false" />
     <file path="/fragment.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390241935674" ignored="false" />
-    <file path="/Dummy.txt" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390812286244" ignored="false" />
+    <file path="/Dummy.txt" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390813289785" ignored="false" />
     <file path="/TransEntityGenerator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390156729865" ignored="false" />
     <file path="/TimeSpace.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390213475681" ignored="false" />
     <file path="/PriceGenerator.java" changelist="297c1e86-536d-4709-bafb-73193ab38846" time="1390217047291" ignored="false" />
@@ -142,7 +154,7 @@
       <file leaf-file-name="SQLProcedureName.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/namesandpathes/SQLProcedureName.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="28" selection-start="499" selection-end="499" vertical-scroll-proportion="0.22849463">
+            <state line="25" column="36" selection-start="908" selection-end="908" vertical-scroll-proportion="0.64761907">
               <folding />
             </state>
           </provider>
@@ -767,7 +779,11 @@
       <created>1390812290480</created>
       <updated>1390812290480</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Enhancement and bug fix.">
+      <created>1390813297220</created>
+      <updated>1390813297220</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -793,8 +809,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2530303" sideWeight="0.71623933" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2837607" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2530303" sideWeight="0.7982906" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2017094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -843,7 +859,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gitignore file added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Enhancement and bug fix." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -860,6 +876,7 @@
     <MESSAGE value="Clean file from ampostrophes." />
     <MESSAGE value="Clean input file from apostrophes." />
     <MESSAGE value="Gitignore file added." />
+    <MESSAGE value="Enhancement and bug fix." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -986,7 +1003,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/dbgen/namesandpathes/SQLProcedureName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="499" selection-end="499" vertical-scroll-proportion="0.22849463">
+        <state line="25" column="36" selection-start="908" selection-end="908" vertical-scroll-proportion="0.64761907">
           <folding />
         </state>
       </provider>
